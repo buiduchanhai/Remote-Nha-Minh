@@ -1,0 +1,4 @@
+REMOTE NHÀ MÌNH • Android
+Mở thư mục dự án bằng Android Studio (JDK 17 và Gradle 8.9). Hoặc đưa nội dung bên trong thư mục RemoteNha lên kho GitHub riêng của bạn, bao gồm .github/workflows/apk.yml ở gốc kho. Vào Actions > Tao APK > lần chạy hoàn tất > Artifacts > Remote-Nha-Minh-APK. Giải nén rồi cài app-debug.apk trên điện thoại. Đây là bản thử ký bằng khóa debug của môi trường build. Để phát hành và cập nhật lâu dài, dùng Android Studio Generate Signed Bundle / APK với khóa riêng được lưu giữ của bạn.
+Mở Remote Nhà Mình khi điện thoại và TV cùng mạng. IP mặc định 192.168.1.4. Bấm Quay lại khi TV ở trang Cài đặt. Ứng dụng dùng MiLink TCP 6091 và chờ xác nhận cho cả nhấn và thả. Nếu app GitHub hiện ghép đôi bằng mã Android TV, cần bổ sung giao thức đó cho ứng dụng này.
+Tham khảo định dạng giao thức: https://github.com/EndLess728/MiTV-Remote#how-it-works
