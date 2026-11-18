@@ -1,0 +1,12 @@
+plugins { id 'com.android.application' version '8.7.3' }
+android {
+    namespace 'vn.remotenha.tv'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'vn.remotenha.tv'
+        minSdk 24
+        targetSdk 32
+        versionCode 1
+        versionName '1.0'
+    }
+}
