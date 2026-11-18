@@ -1,2 +1,2 @@
-# Remote-Nha-Minh
+# Remote TvBDH
 Điều khiển MiTV
